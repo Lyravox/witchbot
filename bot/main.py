@@ -30,7 +30,7 @@ intents.presences = True
 bot = commands.Bot(
     intents=intents,
     status=nextcord.Status.online,
-    activity=nextcord.Game(name="in the airfield!")
+    activity=nextcord.Game(name="in development!")
 )
 
 bot.load_extension('cogs.information')
