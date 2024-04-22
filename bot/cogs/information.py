@@ -8,7 +8,7 @@ class Information(commands.Cog):
         
     @nextcord.slash_command(description="Returns bot latency")
     async def ping(self, interaction: Interaction):
-        latency = self.bot.latency * 1000
+        latency = int(self.bot.latency * 1000)
         await interaction.response.send_message(f"Pong! My latency is {latency}ms.")
         
 def setup(bot):
