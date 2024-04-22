@@ -1,2 +1,3 @@
-# witchbot
-A bot lol
+# WitchBot
+
+A bot lol (Made by @lyravox)
